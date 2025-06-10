@@ -1,0 +1,18 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #ffffff; /* ✅ 무조건 흰색 */
+  --foreground: #171717; /* 기본 글자색 */
+}
+
+/* ✅ 다크모드 무시: prefers-color-scheme 삭제 또는 아예 덮어쓰기 */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff; /* 다크모드여도 무조건 흰색 */
+    --foreground: #171717; /* 다크모드여도 글자색 유지 */
+  }
+}
+
+body {
+  font-family: var(--font-noto-sans-kr), Arial, Helvetica, sans-serif;
+}
