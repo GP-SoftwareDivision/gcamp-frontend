@@ -1,15 +1,7 @@
 'use client'
 
 import { usePathname, useRouter } from 'next/navigation'
-import {
-  UserCircle,
-  MonitorSmartphone,
-  Cpu,
-  BellRing,
-  HelpCircle,
-  History,
-  LogOut,
-} from 'lucide-react'
+import { UserCircle, MonitorSmartphone, Cpu, BellRing, History, LogOut } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import { useState } from 'react'
@@ -18,10 +10,10 @@ import { motion } from 'framer-motion'
 
 const navigation = [
   { name: '회원정보', href: '/home', icon: UserCircle },
-  { name: '센서정보', href: '/dataSensor', icon: MonitorSmartphone },
   { name: '센서킷관리', href: '/sensorKit', icon: Cpu },
+  { name: '센서정보', href: '/dataSensor', icon: MonitorSmartphone },
   { name: '알림내역', href: '/notification', icon: BellRing },
-  { name: '문의사항', href: '/inquiry', icon: HelpCircle },
+  // { name: '문의사항', href: '/inquiry', icon: HelpCircle },
   { name: '이력관리', href: '/log', icon: History },
 ]
 

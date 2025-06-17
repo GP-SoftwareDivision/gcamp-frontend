@@ -335,7 +335,7 @@ export default function GenericDataTableWrapper<T extends { name?: string }>(
         <AlertModal
           open={showDeleteAlert}
           type='error'
-          title={`${selectedItem?.name ?? '이 항목'}을 삭제하시겠습니까?`}
+          title={`${selectedItem?.name ?? '이 항목'} 삭제하시겠습니까?`}
           confirmText='삭제'
           cancelText='취소'
           onCancel={() => setShowDeleteAlert(false)}
