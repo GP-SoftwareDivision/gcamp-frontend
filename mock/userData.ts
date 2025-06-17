@@ -1,5 +1,4 @@
 export type UserType = {
-  accountId?: number
   username: string
   name: string
   email: string
@@ -10,7 +9,6 @@ export type UserType = {
 
 export const userData: UserType[] = [
   {
-    accountId: 1,
     username: 'admin',
     name: '관리자',
     email: 'admin@gmail.com',
@@ -19,7 +17,6 @@ export const userData: UserType[] = [
     role: 'ADMIN',
   },
   {
-    accountId: 2,
     username: 'test01',
     name: '김순자',
     email: 'sunja@gamil.com',
@@ -28,7 +25,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 3,
     username: 'sample123',
     name: '김복자',
     email: 'bockja123@gmail.com',
@@ -37,7 +33,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 4,
     username: 'test02',
     name: '이순신',
     email: '이순신@gmail.com',
@@ -46,7 +41,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 5,
     username: 'test03',
     name: '홍길동',
     email: '홍길동@gmail.com',
@@ -55,7 +49,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 6,
     username: 'test04',
     name: '김철수',
     email: '김철수@gmail.com',
@@ -64,7 +57,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 7,
     username: 'test05',
     name: '박영희',
     email: '박영희@gmail.com',
@@ -73,7 +65,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 8,
     username: 'test06',
     name: '최민수',
     email: '최민수@gmail.com',
@@ -82,7 +73,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 9,
     username: 'test07',
     name: '이영희',
     email: '이영희@gmail.com',
@@ -91,7 +81,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 10,
     username: 'test08',
     name: '정우성',
     email: '정우성@gmail.com',
@@ -100,7 +89,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 11,
     username: 'test09',
     name: '김태희',
     email: '김태희@gmail.com',
@@ -109,7 +97,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 12,
     username: 'test10',
     name: '이민호',
     email: '이민호@gmail.com',
@@ -118,7 +105,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 13,
     username: 'test11',
     name: '전지현',
     email: '전지현@gmail.com',
@@ -127,7 +113,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 14,
     username: 'test12',
     name: '강동원',
     email: '강동원@gmail.com',
@@ -136,7 +121,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 15,
     username: 'test13',
     name: '한가인',
     email: '한가인@gmail.com',
@@ -145,7 +129,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 16,
     username: 'test14',
     name: '이병헌',
     email: '이병헌@gmail.com',
@@ -154,7 +137,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 17,
     username: 'test15',
     name: '김수현',
     email: '김수현@gmail.com',
@@ -163,7 +145,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 18,
     username: 'test16',
     name: '송중기',
     email: '송중기@gmail.com',
@@ -172,7 +153,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 19,
     username: 'test17',
     name: '수지',
     email: '수지@gmail.com',
@@ -181,7 +161,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 20,
     username: 'test18',
     name: '이준기',
     email: '이준기@gmail.com',
@@ -190,7 +169,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 21,
     username: 'test19',
     name: '김고은',
     email: '김고은@gmail.com',
@@ -199,7 +177,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 22,
     username: 'test20',
     name: '박보검',
     email: '박보검@gmail.com',
@@ -208,7 +185,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 23,
     username: 'test21',
     name: '이성민',
     email: '이성민@gmail.com',
@@ -217,7 +193,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 24,
     username: 'test22',
     name: '김희선',
     email: '김희선@gmail.com',
@@ -226,7 +201,6 @@ export const userData: UserType[] = [
     role: 'USER',
   },
   {
-    accountId: 25,
     username: 'test23',
     name: '이정재',
     email: '이정재@gmail.com',

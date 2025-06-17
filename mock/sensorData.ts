@@ -1,5 +1,4 @@
 export type SensorType = {
-  sensorId?: number
   name?: string
   type?: string
   code?: string
@@ -12,7 +11,6 @@ export type SensorType = {
 }
 
 export type SensorDetailsType = {
-  sensorId: number
   name: string
   type: string
   typeLabel: string
@@ -37,7 +35,6 @@ export type SensorDetailsType = {
 
 export const sensorData: SensorType[] = [
   {
-    sensorId: 1,
     name: '테스트센서01',
     type: '이산화탄소',
     code: 'sensor-001',
@@ -49,7 +46,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: 'K-001',
   },
   {
-    sensorId: 2,
     name: '테스트센서02',
     type: '온도',
     code: 'sensor-002',
@@ -61,7 +57,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: null,
   },
   {
-    sensorId: 3,
     name: '테스트센서03',
     type: '습도',
     code: 'sensor-003',
@@ -73,7 +68,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: 'K-002',
   },
   {
-    sensorId: 4,
     name: '테스트센서04',
     type: '온도',
     code: 'sensor-004',
@@ -85,7 +79,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: null,
   },
   {
-    sensorId: 5,
     name: '테스트센서05',
     type: '습도',
     code: 'sensor-005',
@@ -97,7 +90,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: 'K-003',
   },
   {
-    sensorId: 6,
     name: '테스트센서06',
     type: '이산화탄소',
     code: 'sensor-006',
@@ -110,7 +102,6 @@ export const sensorData: SensorType[] = [
   },
 
   {
-    sensorId: 7,
     name: '테스트센서07',
     type: '이산화탄소',
     code: 'sensor-007',
@@ -122,7 +113,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: 'K-004',
   },
   {
-    sensorId: 8,
     name: '테스트센서08',
     type: '일사량',
     code: 'sensor-008',
@@ -134,7 +124,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: null,
   },
   {
-    sensorId: 9,
     name: '테스트센서09',
     type: '지온',
     code: 'sensor-009',
@@ -146,7 +135,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: 'K-005',
   },
   {
-    sensorId: 10,
     name: '테스트센서10',
     type: '지온',
     code: 'sensor-010',
@@ -158,7 +146,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: null,
   },
   {
-    sensorId: 11,
     name: '테스트센서11',
     type: '토양수분',
     code: 'sensor-011',
@@ -170,7 +157,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: 'K-006',
   },
   {
-    sensorId: 12,
     name: '테스트센서12',
     type: '토양수분',
     code: 'sensor-012',
@@ -182,7 +168,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: null,
   },
   {
-    sensorId: 13,
     name: '테스트센서13',
     type: '수소이온농도(pH)',
     code: 'sensor-013',
@@ -194,7 +179,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: null,
   },
   {
-    sensorId: 14,
     name: '테스트센서14',
     type: '수소이온농도(pH)',
     code: 'sensor-014',
@@ -206,7 +190,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: null,
   },
   {
-    sensorId: 15,
     name: '테스트센서15',
     type: '염류농도(EC)',
     code: 'sensor-015',
@@ -218,7 +201,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: null,
   },
   {
-    sensorId: 16,
     name: '테스트센서16',
     type: '염류농도(EC)',
     code: 'sensor-016',
@@ -230,7 +212,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: null,
   },
   {
-    sensorId: 17,
     name: '테스트센서17',
     type: '염류농도(EC)',
     code: 'sensor-017',
@@ -242,7 +223,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: null,
   },
   {
-    sensorId: 18,
     name: '테스트센서18',
     type: '온도',
     code: 'sensor-018',
@@ -254,7 +234,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: 'K-009',
   },
   {
-    sensorId: 19,
     name: '테스트센서19',
     type: '습도',
     code: 'sensor-019',
@@ -266,7 +245,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: null,
   },
   {
-    sensorId: 20,
     name: '테스트센서20',
     type: '습도',
     code: 'sensor-020',
@@ -278,7 +256,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: 'K-010',
   },
   {
-    sensorId: 21,
     name: '테스트센서21',
     type: '이산화탄소',
     code: 'sensor-021',
@@ -290,7 +267,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: null,
   },
   {
-    sensorId: 22,
     name: '테스트센서22',
     type: '이산화탄소',
     code: 'sensor-022',
@@ -302,7 +278,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: 'K-011',
   },
   {
-    sensorId: 23,
     name: '테스트센서23',
     type: '이산화탄소',
     code: 'sensor-023',
@@ -314,7 +289,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: null,
   },
   {
-    sensorId: 24,
     name: '테스트센서24',
     type: '습도',
     code: 'sensor-024',
@@ -326,7 +300,6 @@ export const sensorData: SensorType[] = [
     sensorKitCode: 'K-012',
   },
   {
-    sensorId: 25,
     name: '테스트센서25',
     type: '온도',
     code: 'sensor-025',
@@ -341,10 +314,9 @@ export const sensorData: SensorType[] = [
 
 export const sensorTypeData = [
   {
-    sensorId: 1,
     name: '테스트센서01',
     type: 'TYPE001',
-    typeLabel: 'EC/PH',
+    typeLabel: '이산화탄소',
     code: 'sensor-001',
     status: 'STATUS001',
     statusLabel: '정상',
@@ -364,10 +336,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 2,
     name: '테스트센서02',
     type: 'TYPE002',
-    typeLabel: '온도/습도',
+    typeLabel: '온도',
     code: 'sensor-002',
     status: 'STATUS002',
     statusLabel: '비정상',
@@ -387,10 +358,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 3,
     name: '테스트센서03',
     type: 'TYPE003',
-    typeLabel: '온도/습도',
+    typeLabel: '습도',
     code: 'sensor-003',
     status: 'STATUS003',
     statusLabel: '정상',
@@ -410,10 +380,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 4,
     name: '테스트센서04',
     type: 'TYPE004',
-    typeLabel: 'EC/PH',
+    typeLabel: '온도',
     code: 'sensor-004',
     status: 'STATUS004',
     statusLabel: '정상',
@@ -433,10 +402,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 5,
     name: '테스트센서05',
     type: 'TYPE005',
-    typeLabel: '온도/습도',
+    typeLabel: '습도',
     code: 'sensor-005',
     status: 'STATUS005',
     statusLabel: '정상',
@@ -456,10 +424,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 6,
     name: '테스트센서06',
     type: 'TYPE006',
-    typeLabel: 'EC/PH',
+    typeLabel: '이산화탄소',
     code: 'sensor-006',
     status: null,
     statusLabel: null,
@@ -479,10 +446,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 7,
     name: '테스트센서07',
     type: 'TYPE007',
-    typeLabel: '온도/습도',
+    typeLabel: '이산화탄소',
     code: 'sensor-007',
     status: null,
     statusLabel: null,
@@ -502,10 +468,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 8,
     name: '테스트센서08',
     type: 'TYPE008',
-    typeLabel: '온도/습도',
+    typeLabel: '일사량',
     code: 'sensor-008',
     status: null,
     statusLabel: null,
@@ -525,10 +490,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 9,
     name: '테스트센서09',
     type: 'TYPE009',
-    typeLabel: '온도/습도',
+    typeLabel: '지온',
     code: 'sensor-009',
     status: null,
     statusLabel: null,
@@ -548,10 +512,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 10,
     name: '테스트센서10',
     type: 'TYPE010',
-    typeLabel: '온도/습도',
+    typeLabel: '지온',
     code: 'sensor-010',
     status: null,
     statusLabel: null,
@@ -571,10 +534,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 11,
     name: '테스트센서11',
     type: 'TYPE011',
-    typeLabel: '온도/습도',
+    typeLabel: '토양수분',
     code: 'sensor-011',
     status: null,
     statusLabel: null,
@@ -594,10 +556,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 12,
     name: '테스트센서12',
     type: 'TYPE012',
-    typeLabel: '온도/습도',
+    typeLabel: '토양수분',
     code: 'sensor-012',
     status: null,
     statusLabel: null,
@@ -617,10 +578,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 13,
     name: '테스트센서13',
     type: 'TYPE013',
-    typeLabel: '온도/습도',
+    typeLabel: '수소이온농도(pH)',
     code: 'sensor-013',
     status: null,
     statusLabel: null,
@@ -640,10 +600,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 14,
     name: '테스트센서14',
     type: 'TYPE014',
-    typeLabel: '온도/습도',
+    typeLabel: '수소이온농도(pH)',
     code: 'sensor-014',
     status: null,
     statusLabel: null,
@@ -663,10 +622,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 15,
     name: '테스트센서15',
     type: 'TYPE015',
-    typeLabel: '온도/습도',
+    typeLabel: '염류농도(EC)',
     code: 'sensor-015',
     status: null,
     statusLabel: null,
@@ -686,10 +644,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 16,
     name: '테스트센서16',
     type: 'TYPE016',
-    typeLabel: '온도/습도',
+    typeLabel: '염류농도(EC)',
     code: 'sensor-016',
     status: null,
     statusLabel: null,
@@ -709,10 +666,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 17,
     name: '테스트센서17',
     type: 'TYPE017',
-    typeLabel: '온도/습도',
+    typeLabel: '염류농도(EC)',
     code: 'sensor-017',
     status: null,
     statusLabel: null,
@@ -732,10 +688,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 18,
     name: '테스트센서18',
     type: 'TYPE018',
-    typeLabel: '온도/습도',
+    typeLabel: '온도',
     code: 'sensor-018',
     status: null,
     statusLabel: null,
@@ -755,10 +710,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 19,
     name: '테스트센서19',
     type: 'TYPE019',
-    typeLabel: '온도/습도',
+    typeLabel: '습도',
     code: 'sensor-019',
     status: null,
     statusLabel: null,
@@ -778,10 +732,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 20,
     name: '테스트센서20',
     type: 'TYPE020',
-    typeLabel: '온도/습도',
+    typeLabel: '습도',
     code: 'sensor-020',
     status: null,
     statusLabel: null,
@@ -801,10 +754,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 21,
     name: '테스트센서21',
     type: 'TYPE021',
-    typeLabel: '온도/습도',
+    typeLabel: '이산화탄소',
     code: 'sensor-021',
     status: null,
     statusLabel: null,
@@ -824,10 +776,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 22,
     name: '테스트센서22',
     type: 'TYPE022',
-    typeLabel: '온도/습도',
+    typeLabel: '이산화탄소',
     code: 'sensor-022',
     status: null,
     statusLabel: null,
@@ -847,10 +798,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 23,
     name: '테스트센서23',
     type: 'TYPE023',
-    typeLabel: '온도/습도',
+    typeLabel: '이산화탄소',
     code: 'sensor-023',
     status: null,
     statusLabel: null,
@@ -870,10 +820,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 24,
     name: '테스트센서24',
     type: 'TYPE024',
-    typeLabel: '온도/습도',
+    typeLabel: '습도',
     code: 'sensor-024',
     status: null,
     statusLabel: null,
@@ -893,10 +842,9 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 25,
     name: '테스트센서25',
     type: 'TYPE025',
-    typeLabel: '온도/습도',
+    typeLabel: '온도',
     code: 'sensor-025',
     status: null,
     statusLabel: null,
@@ -916,7 +864,6 @@ export const sensorTypeData = [
     },
   },
   {
-    sensorId: 26,
     name: '테스트센서26',
     type: 'TYPE026',
     typeLabel: '온도/습도',
